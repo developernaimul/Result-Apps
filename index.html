@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result Apps | Programmer Naimul</title>
+    <link rel="shortcut icon" href="https://i.ibb.co/ZWKypkf/icon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-dark text-light shadow">
+                        <div class="card-header text-center">
+                            <h2>Add New Student</h2>
+                        </div>
+                        <div class="card-body">
+                            <form action="" id="naimul">
+                                <input type="text" placeholder="Student Name" class="form-control mb-2">
+                                <input type="text" placeholder="Roll Number" class="form-control mb-2">
+                                <input type="text" placeholder="Class" class="form-control mb-2">
+                                <input type="text" placeholder="Photo" class="form-control mb-2">
+                                <div class="form-check">
+                                    <input type="radio" role="switch" name="gender" value="Male" id="male" class="form-check-input" style="cursor: pointer;"><label for="male" class="form-check-label" style="cursor: pointer;">Male</label>
+                                </div>
+                                <div class="form-check mb-3">
+                                    <input type="radio" name="gender" value="Female" id="female" class="form-check-input" style="cursor: pointer;"><label for="female" class="form-check-label" style="cursor: pointer;">Female</label>
+                                </div>
+                                <span class="mt-3 mb-0">Marks</span>
+                                <hr>
+                                <div class="input-group mb-3">
+                                    <input type="text" placeholder="Bangla" class="form-control">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" placeholder="English" class="form-control">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" placeholder="Math" class="form-control">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" placeholder="Sceience" class="form-control">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" placeholder="Social Sceience" class="form-control">
+                                </div>
+                                <div class="input-group mb-3">
+                                    <input type="text" placeholder="Religion" class="form-control">
+                                </div>
+                                <div class="input-group mb-2">
+                                    <input type="submit" value="Add New Student" class="btn btn-info w-100">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-8">
+
+
+                    <table class="table table-striped table-dark table-hover shadow">
+                        <thead>
+                            <tr>
+                                <th>#</th>
+                                <th>Name</th>
+                                <th>Roll</th>
+                                <th>Class</th>
+                                <th>Gender</th>
+                                <th>Result</th>
+                                <th>CGPA</th>
+                                <th>Photo</th>
+                                <th>Click Action</th>
+                            </tr>
+                        </thead>
+                        <tbody id="data_list">
+                            
+                        </tbody>
+                    </table>
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="./function.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
