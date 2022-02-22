@@ -4,3 +4,19 @@ body{
 td {
     line-height: 35px;
 }
+
+
+.science_box{
+    display: none;
+}
+.arts_box{
+    display: none;
+}
+.comm_box{
+    display: none;
+}
+
+
+.student-result-data img{
+    height: 310px;
+}
